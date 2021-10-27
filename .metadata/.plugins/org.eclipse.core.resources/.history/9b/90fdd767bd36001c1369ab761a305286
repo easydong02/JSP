@@ -1,0 +1,8 @@
+package dao;
+
+public class UserDAO {
+	
+	public int login(String uid, String upass) throws NamingException,SQLException{
+		
+	}
+}

@@ -1,0 +1,7 @@
+127.0.0.1 - - [27/Oct/2021:10:41:44 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:41:45 +0900] "GET /snsproject/signup.html HTTP/1.1" 200 798
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:42:07 +0900] "POST /snsproject/signup.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:42:07 +0900] "GET /snsproject/main.jsp HTTP/1.1" 404 800
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:06 +0900] "GET /snsproject/login.html HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:16 +0900] "POST /snsproject/login.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:16 +0900] "GET /snsproject/main.jsp HTTP/1.1" 404 800

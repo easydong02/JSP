@@ -21,6 +21,8 @@ D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsear
 \day03\src
 D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3634883705.index
 \mall\src
+D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3874921466.index
+\snsproject\src
 D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1406213844.index
 \Hello\src
 D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1335168875.index

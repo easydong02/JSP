@@ -158,6 +158,17 @@
 
 
 
+</Context><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\snsproject" path="/snsproject" reloadable="true" source="org.eclipse.jst.jee.server:snsproject">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/mysns" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mysns?serverTimezone=UTC" username="root"/>
+
+
+
+
+
+
+
+
+
 </Context></Host>
     </Engine>
   </Service>
