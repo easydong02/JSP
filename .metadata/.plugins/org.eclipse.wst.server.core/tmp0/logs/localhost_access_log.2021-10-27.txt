@@ -5,3 +5,21 @@
 0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:06 +0900] "GET /snsproject/login.html HTTP/1.1" 200 646
 0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:16 +0900] "POST /snsproject/login.jsp HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:43:16 +0900] "GET /snsproject/main.jsp HTTP/1.1" 404 800
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:53:18 +0900] "GET /snsproject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:53:27 +0900] "POST /snsproject/login.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:10:53:27 +0900] "GET /snsproject/main.jsp HTTP/1.1" 404 800
+209.141.41.12 - - [27/Oct/2021:10:57:48 +0900] "GET /config/getuser?index=0 HTTP/1.1" 404 784
+34.86.35.29 - - [27/Oct/2021:11:05:02 +0900] "-" 400 2148
+127.0.0.1 - - [27/Oct/2021:11:20:46 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:11:20:47 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:11:21:03 +0900] "POST /snsproject/feedAdd.jsp HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:11:22:09 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 200 650
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:11:22:21 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 200 660
+211.149.191.209 - - [27/Oct/2021:12:56:29 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:13:16:24 +0900] "GET /snsproject/main.jsp HTTP/1.1" 200 855
+192.241.201.197 - - [27/Oct/2021:13:23:34 +0900] "GET /actuator/health HTTP/1.1" 404 826
+127.0.0.1 - - [27/Oct/2021:13:52:52 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:13:52:55 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 500 8167
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:13:53:43 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 500 2421
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:13:55:33 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 500 2421
+0:0:0:0:0:0:0:1 - - [27/Oct/2021:13:59:01 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 200 858
