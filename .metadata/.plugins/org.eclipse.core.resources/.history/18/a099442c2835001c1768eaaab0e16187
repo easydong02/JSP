@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action ="login.jsp">
+What is your favorite color?<br>
+<input type = "text" name ="select"><br><br>
+
+
+
+</form>
+
+
+</body>
+</html>

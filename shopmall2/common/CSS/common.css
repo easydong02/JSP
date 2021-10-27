@@ -1,0 +1,10 @@
+/* shopmall/common/CSS/common.css
+   쇼핑몰 회원정보 관리 스타일시트 */
+
+  table {width:600px; text-align:center; border:2px solid black; border-collapse:collapse;}
+  caption {font-size:20pt; font-weight:bold;}
+  th, td {border:1px solid grey; padding:3px;}
+  th {width:25%; background-color:#CFD0ED;}
+  td {background-color:#FAFAEE; text-align:left;}
+  .msg_red {font-size:10pt; color:red;}
+  .msg_blue {font-size:10pt; color:blue;}

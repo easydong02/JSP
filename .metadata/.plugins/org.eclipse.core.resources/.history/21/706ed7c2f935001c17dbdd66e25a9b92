@@ -1,0 +1,26 @@
+package cal;
+
+public class Calculator {
+	private int n1;
+	private int n2;
+	private String op;
+
+	public double calc() {
+		double result = 0;
+		switch (op) {
+		case "+":
+			result = n1 + n2;
+			break;
+		case "-":
+			result = n1 - n2;
+			break;
+		case "*":
+			result = n1 * n2;
+			break;
+		case "/":
+			result = n1 / n2;
+			break;
+		}
+		return result;
+	}
+}

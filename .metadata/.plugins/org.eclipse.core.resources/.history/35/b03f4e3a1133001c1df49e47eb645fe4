@@ -1,0 +1,13 @@
+package sample.spring.yse;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository //연결해준다
+public class BookDAO {
+	
+	@Autowired  //자동으로 객체 생성된 애들을 연결
+	SqlSessionTemplate sqlSessionTemplate;
+	
+}

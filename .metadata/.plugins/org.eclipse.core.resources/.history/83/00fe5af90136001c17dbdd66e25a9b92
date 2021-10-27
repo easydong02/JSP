@@ -1,0 +1,31 @@
+<%@page import="com.mysql.cj.xdevapi.Statement"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<% 
+	Class.forName("com.mysql.jdbc.Driver"); //Mysql 드라이버를 메모리에 올린다.
+	
+	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysns","root","1234");
+	//conn 객체 생성
+	
+	Statement stmt= conn.createStatement();
+	//Statement 객체 생성
+	
+	ResultSet rs = stmt.executeQuery("SELECT id, name FROM user");
+	
+	
+	String str="";
+	While(rs.next()){
+		str +=rs.getString("id") + ", " + rs.getString("name") + "<br>";
+		out.print(str);
+	}
+	
+	rs.close();
+	stmt.close();
+	conn.close();
+
+
+
+
+%>

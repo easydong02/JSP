@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.sql.*" %>
+<% request.setCharacterEncoding("UTF-8"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String cust_studentNo= request.getParameter("studentNo");
+String cust_name= request.getParameter("name");
+String cust_year= request.getParameter("year");
+String cust_dept= request.getParameter("dept");
+String cust_addr= request.getParameter("addr");
+
+
+
+
+
+
+
+
+
+
+%>
+
+
+
+
+
+
+
+
+</body>
+</html>

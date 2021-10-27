@@ -1,0 +1,22 @@
+package util;
+
+
+import java.sql.*;
+import javax.naming.*;
+import javax.sql.*;
+
+public class ConnectionPool {
+
+	
+	private static DataSource _ds=null; //DataSource 타입의 변수 _ds를 null로 초기화
+	
+	public static Connection get() throws NamingException,SQLException{
+		if(_ds==null) {
+			_ds=(DataSource)(new InitialContext()).lookup("java:comp/env/jdbc");
+		}
+		return _ds.getConnection();
+	}
+	
+	
+	
+}

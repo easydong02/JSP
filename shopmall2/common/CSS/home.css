@@ -1,0 +1,23 @@
+/* shopmall/common/CSS/home.css
+     쇼핑몰 홈 페이지 스타일시트 */
+
+ #out_box {width:800px; margin:0px; padding:5px; border:1px solid blue;}
+ #header {height:50px; padding:10px; margin-bottom:5px; border:1px solid black;}
+ #body_left {width:200px; height:300px; padding:5px; margin-bottom:5px;
+             float:left; border:1px solid black;}
+ #body_middle {width:355px; height:300px; padding:5px; margin-left:5px;
+               margin-bottom:5px; float:left; border:1px solid black;
+               text-align:left; overflow:auto;}
+ #body_right {width:200px; height:300px; padding:5px; margin-bottom:5px;
+              float:right; border:1px solid black; text-align:left; overflow:auto;}
+ #footer {height:20px; padding:20px; clear:both; border:1px solid black;}
+         /* float 속성 해제(display:block;와 동일)  */
+ table {width:200px; text-align:center; border-collapse:collapse;}
+ th, td {border:1px solid grey; padding:3px;}
+ th {width:50%; background-color:#CFD0ED;}
+ td {background-color:#FAFAEE; text-align:left;}
+
+ #menu_ul {padding:0;}
+ #menu_ul li {display:inline;}
+ #menu_ul li a {background-color:pink; font-weight:bold; margin:0px; padding:1px;}
+ #menu_ul li a:hover {background-color:yellow; text-decoration:underline;}

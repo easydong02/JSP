@@ -1,0 +1,8 @@
+package sample.spring.yse;
+
+
+
+@Service
+public class BookServiceImpl {
+
+}

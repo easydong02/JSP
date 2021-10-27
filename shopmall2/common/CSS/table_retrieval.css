@@ -1,0 +1,8 @@
+/* shopmall/common/CSS/table_retrieval.css
+   쇼핑몰 고객정보 테이블 검색 출력 스타일시트 */
+  
+  table {width:100%; text-align:center; border:2px solid black; border-collapse:collapse;}
+  caption {font-size:20pt; font-weight:bold;}
+  th, td {border:1px solid grey; padding:3px;}
+  th {background-color:#CFD0ED;}
+  td {background-color:#FAFAEE; text-align:left;}

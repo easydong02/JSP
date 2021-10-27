@@ -1,0 +1,5 @@
+﻿<%
+
+String sql ="SELECT * FROM customer WHERE (cust_id =?)";
+
+pstmt = conn.prepareStatement(sql);

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="SignupServlet" method="post">
+		<table align=center>
+			<tr>
+				<td colspan=2 align=center height=40><b>회원가입</b></td>
+			</tr>
+			<tr>
+			<td align = right>아이디&nbsp;</td>
+			<td><input type ="text" name ="id"></td>
+		</table>
+	</form>
+</body>
+</html>

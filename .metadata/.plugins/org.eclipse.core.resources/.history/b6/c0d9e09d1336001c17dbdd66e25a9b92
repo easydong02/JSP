@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="jeedAdd.jsp" method="post">
+		<table align=center>
+			<tr>
+				<td colspan=2 align=center height=40><b>글작성</b></td>
+			</tr>
+
+			<tr>
+				<td align=right>아이디</td>
+				<td><input type="text" name="id" required></td>
+			</tr>
+			<tr>
+				<td align=right>작성글</td>
+				<td><textarea name="content" rows=5 cols=20></textarea></td>
+			</tr>
+
+			<tr>
+				<td colspan=2 align=center height=50><input type="submit"
+					value="업로드"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

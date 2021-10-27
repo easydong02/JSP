@@ -1,0 +1,10 @@
+package sample.spring.yse;
+
+import org.springframework.stereotype.Controller;
+
+
+
+@Controller //어노테이션 있는 클래스는 스프링이 브라우저의 요청을 받아서 처리하는 클래스다라고 인지해서 자바 빈으로 등록해서 관리한다.
+public class BookController {
+
+}

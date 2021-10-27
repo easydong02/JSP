@@ -1,0 +1,7 @@
+package sample.spring.yse;
+
+
+@Controller
+public class BookController {
+
+}

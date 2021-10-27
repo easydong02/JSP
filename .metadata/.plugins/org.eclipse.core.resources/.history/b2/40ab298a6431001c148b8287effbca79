@@ -1,0 +1,7 @@
+﻿<%
+
+String sql ="SELECT * FROM customer WHERE (cust_id =?)";
+
+pstmt = conn.prepareStatement(sql);
+	pstmt.setString(1, cust_id);
+rset = pstmt.executeQuery();

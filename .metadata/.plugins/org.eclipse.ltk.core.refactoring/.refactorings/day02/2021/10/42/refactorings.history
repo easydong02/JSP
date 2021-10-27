@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;sum.jsp&apos; to &apos;include&apos;" description="Move &apos;sum.jsp&apos; to &apos;include&apos;" destination="WebContent/include" element1="WebContent/sum.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1634107150314" updateReferences="true"/>
+</session>

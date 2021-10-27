@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="java.util.Date"%>
+<!-- 날짜 생성 -->
+<%@ page import ="java.text.SimpleDateFormat" %>
+<!-- 날짜 형태 설정-->
+<% request.setCharacterEncoding("utf-8");
+
+	Date now = new Date();
+	SimpleDateFormat df= new SimpleDateFormat("yyyy-MM-dd"); // 소문자 m은 분
+	String date = df.format(now);
+	
+
+
+
+
+
+%>

@@ -1,0 +1,8 @@
+  // login_table.css
+  
+  table {width:200px; text-align:center; border-collapse:collapse;}
+  caption {font-size:20pt; font-weight:bold;}
+
+  th, td {border:1px solid grey; padding:2px;}
+  th {width:50%; height:20px; background-color:#CFD0ED;}
+  td {background-color:#FAFAEE; text-align:left;}
