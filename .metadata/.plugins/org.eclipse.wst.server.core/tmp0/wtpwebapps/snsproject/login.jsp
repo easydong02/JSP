@@ -15,7 +15,7 @@ if(code ==1){
 	out.print("패스워드가 일치하지 않습니다.");
 }else{
 	session.setAttribute("id", uid);
-	response.sendRedirect("main.jsp");
+	response.sendRedirect("mainDAO.jsp");
 }
 
 

@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="dao.*"%>
+
+
+<%
+	String str = "", line="";
+
+	str +="Content type:" + request.getContentType() +"<br>";
+	str +="Content length:" + request.getContentLength() +"<br>";
+%>
