@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport
+	content="width=device-width, initial-scale=1, user_scalable=0">
+<!-- 모바일용으로 화면 해상도 설정 -->
+<link rel="stylesheet" href="css/core.css">
+<meta charset="UTF-8">
+<title>MySNS</title>
+<style>
+.desc {
+	float: left;
+	width: 100%;
+	color: #888;
+	font-size: 0.09em;
+}
+</style>
+</head>
+<body>
+	<form action="login.jsp" method="post">
+		<div class="page-hdr">MySNS</div>
+		<div class="page-body">
+			<div class="section pad-24 mtop-30">
+
+
+
+				<input type="text" name="id" placeholder="아이디를 입력하세요" required>
+				<input type="password" name="pw" class="mtop-10" placeholder="패스워드"
+					required> <input type="submit" class="mtop-20" value="로그인">
+			</div>
+			<div class="section pad-24 mtop-30">
+				<div class="desc mtop-20 mbot-20">
+					아직 회원이 아니세요? 간단한 가입 절차로 회원이 되실 수 있습니다.
+					 <a href="signup.html"><div	class="button">회원가입</div></a>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

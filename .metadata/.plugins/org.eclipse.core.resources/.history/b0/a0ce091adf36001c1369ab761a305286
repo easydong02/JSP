@@ -1,5 +1,0 @@
-package dao;
-
-public class FeedObj {
-	private String id, content, ts;
-}
