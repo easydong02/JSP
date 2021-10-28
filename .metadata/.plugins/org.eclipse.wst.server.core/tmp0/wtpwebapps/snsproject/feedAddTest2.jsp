@@ -31,6 +31,7 @@
 		}else{
 			if(name.equals("image")){
 				ufname= item.getName();
+				ufname = ufname.substring(ufname.lastIndexOf("\\"));
 				ufile= item.get();
 				
 				String root = application.getRealPath(java.io.File.separator);

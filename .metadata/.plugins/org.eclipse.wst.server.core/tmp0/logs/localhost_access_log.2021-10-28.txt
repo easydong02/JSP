@@ -1,0 +1,15 @@
+127.0.0.1 - - [28/Oct/2021:09:07:16 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:07:18 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 200 1157
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:07:28 +0900] "POST /snsproject/feedAddTest2.jsp HTTP/1.1" 500 2805
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:10:27 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:10:36 +0900] "POST /snsproject/feedAddTest2.jsp HTTP/1.1" 500 2319
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:17:12 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:17:19 +0900] "POST /snsproject/feedAddTest2.jsp HTTP/1.1" 500 2815
+80.82.70.228 - - [28/Oct/2021:09:19:08 +0900] "GET / HTTP/1.0" 404 807
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:21:46 +0900] "GET /snsproject/feedAdd.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:00 +0900] "POST /snsproject/feedAddTest2.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:01 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:01 +0900] "GET /snsproject/login.html HTTP/1.1" 200 646
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:09 +0900] "POST /snsproject/login.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:09 +0900] "GET /snsproject/mainDAO.jsp HTTP/1.1" 200 1533
+0:0:0:0:0:0:0:1 - - [28/Oct/2021:09:22:09 +0900] "GET /snsproject/images//person.jpg HTTP/1.1" 200 121147
