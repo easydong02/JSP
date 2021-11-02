@@ -19,7 +19,7 @@ public class TodoDAO {
 		ResultSet rs =null;
 		
 		try {
-			String sql = "SELECT NO,ID ,TODO,DONE,TS FROM TODO WHERE ID = '111' AND DONE = 1 ORDER BY TS DESC ";
+			String sql = "SELECT NO,ID ,TODO,DONE,TS FROM TODO WHERE ID = '111' AND DONE IS NULL ORDER BY TS DESC ";
 			
 			conn = ConnectionPool.get();
 			pstmt= conn.prepareStatement(sql);
@@ -52,7 +52,7 @@ public class TodoDAO {
 		PreparedStatement pstmt =null;
 		
 		try {
-			String sql = "UPDATE TODO SET DONE =0 WHERE NO =?";
+			String sql = "UPDATE TODO SET DONE =1 WHERE NO =?";
 			
 			conn = ConnectionPool.get();
 			pstmt= conn.prepareStatement(sql);
@@ -72,6 +72,35 @@ public class TodoDAO {
 			}
 		}
 	}
+	
+	public boolean insert(String uid, String utodo) throws NamingException,SQLException {
+		
+		Connection conn = null;
+		PreparedStatement pstmt =null;
+		
+		try {
+			String sql = "INSERT INTO TODO(ID,TODO) VALUES(?,?)";
+			
+			conn = ConnectionPool.get();
+			pstmt= conn.prepareStatement(sql);
+			pstmt.setString(1, uid );
+			pstmt.setString(2, utodo);
+			
+			int count =pstmt.executeUpdate();
+			
+			return (count==1)? true:false;
+			
+		}finally {
+			
+			if (pstmt != null) {
+				pstmt.close();
+			}
+			if (conn != null) {
+				conn.close();
+			}
+		}
+	}
+
 	
 	
 	
