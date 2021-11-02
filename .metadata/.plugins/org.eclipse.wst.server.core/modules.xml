@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:TodoList" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:jspProject" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:exam" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:day03" serverId="Tomcat v9.0 Server at localhost"/>
@@ -11,6 +12,7 @@
   <module moduleId="org.eclipse.jst.jee.server:day01" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SampleSprintYse" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:day02" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:YourSNS" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Hello2" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:webMarket" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:snsproject2" serverId="Tomcat v9.0 Server at localhost"/>

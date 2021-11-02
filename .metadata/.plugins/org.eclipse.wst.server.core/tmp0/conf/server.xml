@@ -153,12 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Hello" path="/Hello" reloadable="true" source="org.eclipse.jst.jee.server:Hello"/><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Hello2" path="/Hello2" reloadable="true" source="org.eclipse.jst.jee.server:Hello2">
-	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/mysns" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mysns?serverTimezone=UTC" username="root"/>
-
-
-
-</Context><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\snsproject2" path="/snsproject2" reloadable="true" source="org.eclipse.jst.jee.server:snsproject2">
+      <Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\YourSNS" path="/YourSNS" reloadable="true" source="org.eclipse.jst.jee.server:YourSNS">
 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/mysns" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mysns?serverTimezone=UTC" username="root"/>
 
 
@@ -169,8 +164,8 @@
 
 
 
-</Context><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\snsproject" path="/snsproject" reloadable="true" source="org.eclipse.jst.jee.server:snsproject">
-	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/mysns" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mysns?serverTimezone=UTC" username="root"/>
+</Context><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\TodoList" path="/TodoList" reloadable="true" source="org.eclipse.jst.jee.server:TodoList">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/todolist" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/todolist?serverTimezone=UTC" username="root"/>
 
 
 

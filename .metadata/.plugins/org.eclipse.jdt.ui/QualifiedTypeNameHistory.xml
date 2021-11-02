@@ -15,13 +15,14 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="javax.naming.NamingException"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
-<fullyQualifiedTypeName name="util.ConnectionPool"/>
 <fullyQualifiedTypeName name="dao.FeedObj"/>
 <fullyQualifiedTypeName name="dao.FeedDAO"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="util.ConnectionPool"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

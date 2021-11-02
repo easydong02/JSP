@@ -30,13 +30,14 @@
 		}else{
 			if(name.equals("image")){
 				ufname = item.getName();
-				ufname= ufname.substring(ufname.lastIndexOf(("\\")));
+				ufname= ufname.substring(ufname.lastIndexOf("\\")+1);
 				ufile = item.get();
 				
 				String root = application.getRealPath(java.io.File.separator);
 				FileUtil.saveImage(root,ufname,ufile);
 				
 				FeedDAO dao =new FeedDAO();
+				ucon= ucon.replace("\r\n","<br/>");
 				if(dao.insert(uid,ucon,ufname)){
 					response.sendRedirect("main.jsp");
 				}else{

@@ -16,4 +16,6 @@
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.wst.html.core.htmlsource.source"/>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

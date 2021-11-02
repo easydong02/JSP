@@ -1,8 +1,0 @@
-package sample.spring.yse;
-
-import org.springframework.stereotype.Repository;
-
-@Repository
-public class BookDAO {
-
-}
