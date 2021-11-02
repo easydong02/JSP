@@ -19,7 +19,7 @@ public class TodoDAO {
 		ResultSet rs =null;
 		
 		try {
-			String sql = "SELECT NO,ID ,TODO,TS FROM TODO WHERE ID = '111' ORDER BY TS DESC ";
+			String sql = "SELECT NO,ID ,TODO,DONE,TS FROM TODO WHERE ID = '111' AND DONE = 1 ORDER BY TS DESC ";
 			
 			conn = ConnectionPool.get();
 			pstmt= conn.prepareStatement(sql);
@@ -28,7 +28,7 @@ public class TodoDAO {
 			ArrayList<TodoObj> todos = new ArrayList<TodoObj>();
 			
 			while(rs.next()) {
-				todos.add(new TodoObj(rs.getString("no"),rs.getString("id"),rs.getString("todo"),rs.getString("ts")));
+				todos.add(new TodoObj(rs.getString("no"),rs.getString("id"),rs.getString("todo"),rs.getString("done"),rs.getString("ts")));
 			}
 			
 			return todos;
@@ -38,6 +38,32 @@ public class TodoDAO {
 			if (rs != null) {
 				rs.close();
 			}
+			if (pstmt != null) {
+				pstmt.close();
+			}
+			if (conn != null) {
+				conn.close();
+			}
+		}
+	}
+	public boolean del(String no) throws NamingException,SQLException {
+		
+		Connection conn = null;
+		PreparedStatement pstmt =null;
+		
+		try {
+			String sql = "UPDATE TODO SET DONE =0 WHERE NO =?";
+			
+			conn = ConnectionPool.get();
+			pstmt= conn.prepareStatement(sql);
+			pstmt.setString(1, no);
+			
+			int count =pstmt.executeUpdate();
+			
+			return (count==1)? true:false;
+			
+		}finally {
+			
 			if (pstmt != null) {
 				pstmt.close();
 			}

@@ -19,7 +19,7 @@
 				<th scope="col">할일</th>
 				<th scope="col">작성시간</th>
 				<th scope="col">완료</th>
-			
+
 			</tr>
 		</thead>
 
@@ -27,21 +27,21 @@
 		<tbody>
 			<%
 				ArrayList<TodoObj> feeds = (new TodoDAO()).getList();
-
+			int i =feeds.size();
 			for (TodoObj feed : feeds) {
 			%>
 
 
 			<tr>
-				<th scope="row">1</th>
+				<th scope="row"><%=i %></th>
 				<td><%=feed.getTodo()%></td>
 				<td><%=feed.getTs()%></td>
-				<td>완료</td>
+				<td><a href = "deltodo.jsp?no=<%=feed.getNo() %>">완료</a></td>
 			</tr>
 
 
 			<%
-				}
+			i--;	}
 			%>
 		</tbody>
 	</table>
