@@ -1,4 +1,0 @@
-<%@ page contentType = "text/html" %>
-
-<%	
-	String uid = request.getParameter("id");

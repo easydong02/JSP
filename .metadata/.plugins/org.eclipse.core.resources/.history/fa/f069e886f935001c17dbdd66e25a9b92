@@ -1,7 +1,0 @@
-package cal;
-
-public class Calculator {
-	private int n1;
-	private int n2;
-	private String op;
-}
