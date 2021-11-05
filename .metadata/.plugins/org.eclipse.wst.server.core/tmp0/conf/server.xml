@@ -153,7 +153,9 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebShop" path="" reloadable="true" source="org.eclipse.jst.jee.server:WebShop">
+      <Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Webshop2" path="" reloadable="true" source="org.eclipse.jst.jee.server:Webshop2">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/webshop" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC" username="root"/>
+</Context><Context docBase="D:\bigData\workspacebyAustin\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebShop" path="/WebShop" reloadable="true" source="org.eclipse.jst.jee.server:WebShop">
 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="4" maxTotal="16" maxWaitMillis="-1" name="jdbc/webshop" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/webshop?serverTimezone=UTC" username="root"/>
 </Context></Host>
     </Engine>
