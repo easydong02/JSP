@@ -1,0 +1,9 @@
+# key- value의 쌍을 표현
+# java의 컬렉션 프레임웍(객체를 모아서 처리하는 데 유용한 라이브러리 list,set,map) wnddptj
+# map의 자식인 properties를 이요하면 아래의 형식의 데이터를 이해할 수 있다
+#키와 밸류값으로만 가능
+zerg = disgusting
+terran = weak
+protoss = strong
+
+/blood.do = com.koreait.mvc.controller.blood.BloodController

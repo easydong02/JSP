@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Comments">
+	
+	<insert id="insert" parameterType="Comments">
+		insert into comments(msg,author,news_id) values(#{msg},#{author},#{news_id})
+	</insert>
+	
+	<select id="selectAll" parameterType="int" resultType="Comments">
+		select * from comments where news_id = #{news_id}
+	</select>
+	
+	<delete id="delete" parameterType="int">
+		delete from comments where news_id=#{news_id}
+	</delete>
+</mapper>

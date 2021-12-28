@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean class="javax.swing.JTextField" id="t_id"></bean>	
+<bean class="javax.swing.JTextField" id="t_pass">
+	<constructor-arg index="0">
+		<value>비밀번호</value>
+	</constructor-arg>
+</bean>	
+<bean class="javax.swing.JButton"	  id="bt">
+	<constructor-arg index="0" value="나버튼"/>
+</bean>	
+	
+	<!--  MyFrame에 주입 엮기 weaving-->
+	<bean class="view.MyFrame" id ="myFrame">
+		<!-- 이건 세터로 했을 때<property name="t_id" ref="t_id"></property>
+		<property name="t_pass" ref="t_pass"></property>
+		<property name="bt" ref="bt"></property> -->
+		
+		<!-- 이건 위빙방법으로 했을 때 -->
+		<constructor-arg index="0" ref="t_id"/>
+		<constructor-arg index="1" ref="t_pass"/>
+		<constructor-arg index="2" ref="bt"/>
+	</bean>
+</beans>

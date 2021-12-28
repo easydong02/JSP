@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+		<!-- 이 어플리케이션에서 사용할 뷰 리절버
+			접두어, 접미어를 이용하여 jsp를 반환하는 해석자
+		 -->
+		<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+			<beans:property name="prefix" value="/"></beans:property>
+			<beans:property name="suffix" value=".jsp"></beans:property>
+		</beans:bean>
+		<!--  우리가 제작한 프레임워크에서 mapping.data파일로 컨트롤러 매핑과 뷰매핑을 처리했듯이
+				스프링에서는 xml설정파일에서 매핑을 처리한다 -->	
+		<!-- 요청을 처리할 동생 컨트롤러를 검색 및 반환할 전담 객체를 핸들러 매핑이라 하며, 이 객체들의 종류는 여러 종류가 있고,
+				개발자는 본인이 원하는 핸들러 매핑을 등록하고 사용해야 한다. 만일 아무것도 틍록하지 않으면, 스프링 3.x이후 부터는
+				디폴트로 DefaultAnootationHandlerMapping 이 기본으로 등록된다 -->
+				
+		<beans:bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+			<beans:property name="alwaysUseFullPath" value="true"></beans:property>
+			<beans:property name="mappings">
+				<beans:props>
+					<beans:prop key="/test">testController</beans:prop>
+				</beans:props>
+			</beans:property>
+		</beans:bean>
+	
+	<!-- 동생 컨트롤러들 등록 -->
+	<beans:bean class="com.koreait.springmvc1222.test.TestController" id = "testController"></beans:bean>
+	
+</beans:beans>

@@ -1,0 +1,22 @@
+/blood.do=com.koreait.mvc.controller.blood.BloodController
+/movie.do=com.koreait.mvc.controller.movie.MovieController
+
+
+/notice/list.do=com.koreait.mvc.controller.notice.ListController
+/notice/regist.do=com.koreait.mvc.controller.notice.RegistController
+/notice/detail.do=com.koreait.mvc.controller.notice.DetailController
+/notice/update.do=com.koreait.mvc.controller.notice.UpdateController
+/notice/delete.do=com.koreait.mvc.controller.notice.DeleteController
+
+/dept/list.do=com.koreait.mvc.controller.dept.ListController
+
+/emp/regist.do=com.koreait.mvc.controller.emp.RegistController
+
+#보여줄 뷰매핑
+/result/notice=/notice/list.jsp
+/result/notice/regist=/notice/list.do
+/result/notice/detail=/notice/detail.jsp
+/result/notice/update=/notice/detail.jsp
+/result/notice/delete=/notice/list.do
+
+/result/dept/list=/dept/list.jsp

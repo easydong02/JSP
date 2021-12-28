@@ -1,25 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="SearchDialog">
+		<item key="PREVIOUS_PAGE" value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+	</section>
 	<section name="Search">
 		<list key="Search.processedPageIds">
-			<item value="org.eclipse.rse.internal.files.ui.search.searchPage"/>
 			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.mylyn.tasks.ui.search.page"/>
 			<item value="org.eclipse.egit.ui.commitSearchPage"/>
 			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
-			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
-			<item value="net.sourceforge.pmd.eclipse.plugin.page1"/>
-			<item value="org.springframework.ide.eclipse.beans.ui.search.searchPage"/>
+			<item value="org.jkiss.dbeaver.ui.search.data.SearchDataPage"/>
+			<item value="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataPage"/>
 		</list>
 		<list key="Search.enabledPageIds">
-			<item value="org.eclipse.rse.internal.files.ui.search.searchPage"/>
 			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.mylyn.tasks.ui.search.page"/>
 			<item value="org.eclipse.egit.ui.commitSearchPage"/>
 			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
-			<item value="org.eclipse.wst.jsdt.ui.JavaSearchPage"/>
 			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
-			<item value="net.sourceforge.pmd.eclipse.plugin.page1"/>
-			<item value="org.springframework.ide.eclipse.beans.ui.search.searchPage"/>
+			<item value="org.jkiss.dbeaver.ui.search.data.SearchDataPage"/>
+			<item value="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataPage"/>
+		</list>
+	</section>
+	<section name="TextSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="REG_EX_SEARCH" value="false"/>
+		<item key="WHOLE_WORD" value="false"/>
+		<item key="SEARCH_DERIVED" value="false"/>
+		<item key="SEARCH_IN_BINARIES" value="false"/>
+		<item key="HISTORY_SIZE" value="5"/>
+		<section name="EXTENSIONS">
+			<item key="0" value=""/>
+			<item key="1" value="*"/>
+		</section>
+		<section name="HISTORY0">
+			<item key="ignoreCase" value="true"/>
+			<item key="isRegExSearch" value="false"/>
+			<item key="isWholeWord" value="false"/>
+			<item key="textPattern" value="href=&quot;../../index3.html&quot; class=&quot;nav-link&quot;"/>
+			<item key="scope" value="0"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item key="ignoreCase" value="true"/>
+			<item key="isRegExSearch" value="false"/>
+			<item key="isWholeWord" value="false"/>
+			<item key="textPattern" value="href=&quot;admin/plugins/dist/css/adminlte.min.css&quot;"/>
+			<item key="scope" value="0"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY2">
+			<item key="ignoreCase" value="true"/>
+			<item key="isRegExSearch" value="false"/>
+			<item key="isWholeWord" value="false"/>
+			<item key="textPattern" value="href=&quot;../../dist/css/adminlte.min.css&quot;"/>
+			<item key="scope" value="0"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
+			<item key="ignoreCase" value="true"/>
+			<item key="isRegExSearch" value="false"/>
+			<item key="isWholeWord" value="false"/>
+			<item key="textPattern" value="href=&quot;admin/plugins/fontawesome-free/css/all.min.css&quot;"/>
+			<item key="scope" value="0"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY4">
+			<item key="ignoreCase" value="true"/>
+			<item key="isRegExSearch" value="false"/>
+			<item key="isWholeWord" value="false"/>
+			<item key="textPattern" value="href=&quot;../../plugins/fontawesome-free/css/all.min.css&quot;"/>
+			<item key="scope" value="0"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="SearchDialog.ScopePart">
+		<item key="scope" value="0"/>
+	</section>
+	<section name="DialogBounds_SearchDialog">
+		<item key="DIALOG_X_ORIGIN" value="666"/>
+		<item key="DIALOG_Y_ORIGIN" value="171"/>
+		<item key="DIALOG_WIDTH" value="789"/>
+		<item key="DIALOG_HEIGHT" value="531"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|8.765218|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="">
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
+	</section>
+	<section name="org.eclipse.search.text.FileSearchResultPage">
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
+	</section>
+	<section name="ReplaceDialog2">
+		<list key="replace_with">
+			<item value="href=&quot;/admin/plugins/index3.html&quot; class=&quot;nav-link&quot;"/>
+			<item value="href=&quot;/admin/plugins/dist/css/adminlte.min.css&quot;"/>
+			<item value="href=&quot;admin/plugins/dist/css/adminlte.min.css&quot;"/>
+			<item value="href=&quot;/admin/plugins/fontawesome-free/css/all.min.css&quot;"/>
+			<item value="href=&quot;admin/plugins/fontawesome-free/css/all.min.css&quot;"/>
 		</list>
 	</section>
 </section>

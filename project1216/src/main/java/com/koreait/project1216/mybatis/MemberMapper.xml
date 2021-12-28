@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Member">
+
+	<insert id="insert" parameterType="Member">
+		insert into member(id,pass,name,email) values(#{id},#{pass},#{name},#{email})
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="loginCheck" parameterType="Member" resultType="Member">
+		select * from member where id=#{id} and pass=#{pass}
+	</select> 
+</mapper>
