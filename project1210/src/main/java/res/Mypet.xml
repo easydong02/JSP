@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pets>
+	<pet>
+		<name>앵순이</name>
+		<type>앵무새</type>
+		<age>8</age>
+	</pet>
+	
+	<pet>
+		<name>금돌이</name>
+		<type>금붕어</type>
+		<age>1</age>
+	</pet>
+	
+	<pet>
+		<name>아나</name>
+		<type>이구아나</type>
+		<age>3</age>
+	</pet>
+	
+	<pet>
+		<name>로돌이</name>
+		<type>로랜드 고릴라</type>
+		<age>13</age>
+	</pet>
+</pets>
